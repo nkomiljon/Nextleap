@@ -1,0 +1,286 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #537688;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 100%;
+  max-width: 1460px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #262F3F;
+}
+.header__inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  padding: 18px 190px 8px 8px;
+  margin: 12px 0;
+}
+
+.menu {
+  width: 100%;
+  margin: 23px 0;
+}
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__item-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.menu__call {
+  padding: 8px 14px 0 14px;
+}
+.menu__call-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #1F9CDE;
+}
+
+.beznes {
+  margin: 160px 0 166px 0;
+}
+.beznes__title {
+  padding: 0 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86px;
+  color: #262F3F;
+}
+.beznes__subtitle {
+  padding: 0 730px 0 380px;
+  margin: 40px 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: gray;
+}
+.beznes__btn {
+  margin: 0 730px 66px 380px;
+  padding: 8px 24px;
+  background: linear-gradient(45.24deg, #0F618A 0%, #5AC2F6 100%);
+}
+.beznes__list {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.content__item {
+  margin: 64px 45px 0 0;
+}
+
+.card {
+  max-width: 268px;
+  padding: 0 0 0 10px;
+  border-left: 2px solid #1F9CDE;
+}
+.card__id {
+  margin-bottom: 20px;
+  font-family: "Roboto Mono", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1F9CDE;
+}
+.card__text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2B3E47;
+}
+.card__text:hover {
+  color: #1F9CDE;
+}
+
+.title--ligth {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 86px;
+  color: #1F9CDE;
+}
+
+.btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.main-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #2B3E47;
+}
+
+.white-title {
+  color: #FFFFFF;
+}
+
+.progect {
+  background-color: #262F3F;
+  max-height: 1020px;
+}
+.progect__inner {
+  padding: 60px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.progect__info-title {
+  margin: 0 140px 40px 0;
+  padding: 0 8px;
+}
+.progect__info-column {
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.progect__info-row {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.progect__info-list {
+  margin: 0 0 35px 0;
+}
+.progect__info-item {
+  margin-bottom: 5px;
+}
+.progect__info-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.progect__info-link:hover {
+  color: #1F9CDE;
+  opacity: 1;
+}
+.progect__info-btn {
+  padding: 10px 11px;
+  margin: 22px 0 0 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  background-color: transparent;
+  color: #1F9CDE;
+  cursor: pointer;
+}
+
+.product {
+  display: grid;
+  grid-auto-columns: 515px;
+  grid-template-rows: 420px;
+  gap: 40px;
+}
+.product__card {
+  padding: 0 40px 40px 40px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.product__card-img {
+  padding: 32px 30px 0 30px;
+}
+.product__card-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.product__card-subtitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.card-first {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+.card-second {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+
+.card-three {
+  height: 560px;
+  grid-column: 2/2;
+  grid-row: 2;
+}
+
+.card-four {
+  height: 560px;
+  grid-column: 2/2;
+  grid-row: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
